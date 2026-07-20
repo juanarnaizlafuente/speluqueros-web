@@ -25,3 +25,22 @@ body{background:#fff}.site-header{background:rgba(255,255,255,.92);border-color:
 .care-note{display:flex;justify-content:space-between;align-items:center;padding:40px;background:#eef4fa;color:#5f6873}
 .care-note p{max-width:480px;margin:0}
 @media(max-width:760px){.category-links{display:block;background:none}.category-card{min-height:300px;margin-bottom:2px}.price-section-title{font-size:42px}.care-note{display:block}.care-note .button{margin-top:24px}}
+.site-header .brand-logo {
+  width: 420px;
+  height: 72px;
+}
+
+.site-header .brand-logo img {
+  width: 420px;
+  height: 72px;
+}
+
+.footer-brand .footer-icon {
+  width: 78px;
+  height: 78px;
+}
+
+.footer-brand img:not(.footer-icon) {
+  width: 310px;
+  height: 68px;
+}
