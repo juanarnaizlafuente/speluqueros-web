@@ -116,3 +116,65 @@ body{background:#fff}.site-header{background:rgba(255,255,255,.92);border-color:
 }
 .hero{padding-top:3vw}
 @media(max-width:760px){.contact-details>.social-links{position:static;margin:24px 0 34px}}
+
+/* Ajuste móvil: evita desbordamientos y solapamientos en pantallas estrechas */
+@media (max-width: 760px){
+  html,body{overflow-x:hidden}
+  .site-header{padding:0 5vw}
+  .site-header .brand-logo{width:180px;height:48px}
+  .site-header .brand-logo img{width:180px;height:48px;transform:scale(1.65)}
+  .main-nav{gap:18px;font-size:14px}
+  .hero{padding:52px 7vw 24px;min-height:0}
+  .hero-copy{min-width:0}
+  .hero h1{font-size:clamp(48px,15vw,72px);overflow-wrap:anywhere}
+  .hero-text{max-width:none;margin:24px 0;font-size:16px}
+  .hero-actions{gap:18px;align-items:flex-start;flex-direction:column}
+  .hero-actions .button,.hero-actions .text-link{width:max-content}
+  .hero-art{min-height:330px;margin:28px 0 0}
+  .hero-logo-panel{min-height:330px;margin-top:0;border-radius:24px 6px 24px 6px}
+  .hero-logo-badge{width:70%;gap:14px;padding:24px}
+  .hero-logo-badge img{width:82%}
+  .intro{padding:72px 7vw}
+  .services{padding:58px 7vw 44px}
+  .services .section-heading{display:block;margin-bottom:24px}
+  .services .section-heading h2{font-size:clamp(42px,12vw,64px)}
+  .services .services-subtitle{font-size:25px}
+  .services .brands-panel{padding:24px 18px;margin-top:28px}
+  .services .brands-panel>p{font-size:14px}
+  .services .brand-list{gap:10px;margin-top:22px}
+  .services .brand-list img{height:58px}
+  .category-card{min-height:260px;padding:26px}
+  .feature-copy{padding:64px 7vw}
+  .feature-copy h2{font-size:clamp(44px,12vw,64px)}
+  .prices{padding:72px 7vw}
+  .prices .section-heading{display:block;margin-bottom:30px}
+  .prices .section-heading h2{font-size:clamp(46px,13vw,68px)}
+  .price-section-title{font-size:40px;margin:52px 0 22px}
+  .price-grid{display:block;background:#dbe2eb}
+  .price-grid article{padding:24px 20px;margin-bottom:2px}
+  .price-grid h3{font-size:28px}
+  .booking{padding:68px 7vw}
+  .contact{display:block;padding:76px 7vw}
+  .contact h2{font-size:clamp(50px,14vw,76px)}
+  .contact-details{margin-top:54px}
+  .locations{display:block}
+  .locations:before{font-size:38px;margin:34px 0 24px}
+  .locations article{margin-bottom:32px}
+  .map-link{align-items:flex-start}
+  .map-link img{margin-top:3px}
+  .contact-details>.social-links{justify-content:flex-start}
+  footer{padding:28px 7vw}
+  .footer-brand img:not(.footer-icon){width:190px;height:48px;transform:none}
+  .footer-brand .footer-icon{width:48px;height:48px;transform:none}
+}
+@media (max-width: 420px){
+  .site-header .brand-logo{width:155px}
+  .site-header .brand-logo img{width:155px;transform:scale(1.45)}
+  .main-nav{padding-left:7vw;padding-right:7vw}
+  .hero{padding-left:6vw;padding-right:6vw}
+  .services,.prices,.contact,.feature-copy,.booking{padding-left:6vw;padding-right:6vw}
+  .hero-logo-panel{min-height:285px}
+  .hero-logo-badge{width:76%;padding:18px}
+  .services .brand-list img{height:50px}
+  .locations:before{font-size:34px}
+}
