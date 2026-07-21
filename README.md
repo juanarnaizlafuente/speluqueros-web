@@ -1,4 +1,4 @@
-# Speluqueros.com
+# Speluqueros.es
 
 Proyecto independiente para rehacer y publicar la web de Sebastián Peluqueros.
 
