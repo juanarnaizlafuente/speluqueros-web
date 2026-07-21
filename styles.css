@@ -107,6 +107,11 @@ body{background:#fff}.site-header{background:rgba(255,255,255,.92);border-color:
 .services .service-grid article:nth-child(2){background:#f7f9fc;color:#111}
 .services .service-grid article:nth-child(3){background:#fff;color:#111}
 
+/* Precios: título centrado y paleta azul */
+.prices .section-heading{justify-content:center;text-align:center}
+.prices .section-heading h2 em{color:#1556a8}
+.prices .section-heading>p{display:none}
+
 @media(max-width:760px){
   .services{padding-top:55px;padding-bottom:55px}
   .services .brands-panel{margin-top:30px;max-width:none}
