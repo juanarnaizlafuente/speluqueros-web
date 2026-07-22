@@ -219,7 +219,7 @@ main#inicio>.contact{order:-1}
 
 /* Ajuste final de contacto: logo nítido y composición más compacta. */
 .contact{padding-top:62px;padding-bottom:78px}
-.contact:before{min-height:520px;background:#fff url("https://raw.githubusercontent.com/juanarnaizlafuente/speluqueros-web/main/sebastian-peluqueros-logo.svg") center/78% auto no-repeat}
+.contact:before{min-height:520px;background:#fff url("assets/Fotos/slider-salon.svg") center/cover no-repeat;border-radius:4px}
 .contact>div:first-child{padding-top:0}
 .contact>div:first-child:after{content:none!important;display:none!important}
 .contact-details>a[href^="mailto:"]{margin-bottom:22px}
