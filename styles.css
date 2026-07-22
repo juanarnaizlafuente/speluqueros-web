@@ -183,3 +183,11 @@ body{background:#fff}.site-header{background:rgba(255,255,255,.92);border-color:
   .services .brand-list img{height:50px}
   .locations:before{font-size:34px}
 }
+
+/* La información de contacto es la primera pantalla de la web. */
+main#inicio{display:flex;flex-direction:column}
+main#inicio>.hero{display:none}
+main#inicio>.contact{order:-1}
+.contact-service{margin-top:2rem;font:600 1.15rem/1.3 'DM Sans',sans-serif;color:#1556a8}
+.contact-email-label{margin-bottom:.45rem;text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;font-weight:700}
+.contact-details>a[href^="mailto:"]{text-decoration:none;color:#111}
