@@ -289,3 +289,5 @@ main#inicio>.contact{order:-1}
 }
 
 .contact h2{font:400 clamp(28px,3vw,44px)/1.08 'DM Sans',sans-serif;letter-spacing:.045em;text-transform:uppercase;white-space:nowrap;color:#111}
+
+.contact h2{font:400 clamp(28px,3vw,44px)/1.08 'Avenir Next','Avenir','Montserrat','DM Sans',sans-serif;letter-spacing:.035em;text-transform:uppercase;white-space:nowrap;color:#111}.contact h2 em{margin-left:.3em}
