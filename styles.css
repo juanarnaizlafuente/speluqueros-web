@@ -239,3 +239,5 @@ main#inicio>.contact{order:-1}
   .contact>div:first-child{grid-column:1;grid-row:2;padding-top:0}
   .contact-details{grid-column:1;grid-row:3}
 }
+
+@media(max-width:760px){.contact:before{background-size:cover;background-position:center;min-height:280px}}
