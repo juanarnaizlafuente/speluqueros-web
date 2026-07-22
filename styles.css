@@ -194,7 +194,7 @@ main#inicio>.contact{order:-1}
 
 /* Contacto prioritario: imagen del salón a la izquierda y datos a la derecha. */
 .contact{grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:6vw;align-items:start}
-.contact:before{content:"";grid-column:1;grid-row:1 / span 2;min-height:560px;background:url("assets/Fotos/logo-salon-mejorado.png") center/cover no-repeat}
+.contact:before{content:"";grid-column:1;grid-row:1 / span 2;min-height:560px;background:url("assets/Fotos/logo-salon-mejorado.svg") center/cover no-repeat}
 .contact>div:first-child{grid-column:2;grid-row:1;padding-top:18px}
 .contact-details{grid-column:2;grid-row:2;margin-top:0}
 .contact>div:first-child:after{display:block}
