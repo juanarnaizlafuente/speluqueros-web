@@ -295,3 +295,43 @@ main#inicio>.contact{order:-1}
 /* Imagen un poco más baja y grande en escritorio. */
 .contact:before{left:8vw;top:18px;width:calc(50% - 9vw);height:580px}
 @media(max-width:760px){.contact:before{position:static;width:100%;height:300px;min-height:300px;margin-top:10px;background-size:cover}}
+
+
+/* Tipografía de títulos: Josefin Sans Light, fina y geométrica como la referencia. */
+.contact h2,
+.contact h2 em {
+  font-family:'Josefin Sans',sans-serif!important;
+  font-weight:300!important;
+  font-style:normal!important;
+  text-transform:uppercase!important;
+  color:#111!important;
+  letter-spacing:.12em!important;
+  line-height:1!important;
+}
+.contact h2 {
+  font-size:clamp(26px,3.2vw,52px)!important;
+  white-space:nowrap!important;
+}
+.contact h2 em {
+  font-size:inherit!important;
+  margin-left:.16em!important;
+}
+.contact h2 br,
+.contact h2 em:after {
+  display:none!important;
+  content:none!important;
+}
+.contact .eyebrow,
+.contact-email-label {
+  font-family:'Josefin Sans',sans-serif!important;
+  font-weight:400!important;
+  letter-spacing:.22em!important;
+}
+@media(max-width:760px){
+  .contact h2 {
+    font-size:clamp(24px,7.2vw,40px)!important;
+    letter-spacing:.08em!important;
+    white-space:nowrap!important;
+  }
+  .contact h2 em {margin-left:.08em!important}
+}
