@@ -335,3 +335,33 @@ main#inicio>.contact{order:-1}
   }
   .contact h2 em {margin-left:.08em!important}
 }
+
+
+/* Tipografía predeterminada para títulos de contacto y secciones. */
+:root{--title-font:'Josefin Sans',sans-serif}
+.contact h2,
+.contact h2 em{
+  font-family:var(--title-font)!important;
+  font-weight:500!important;
+}
+.contact h2 em:after{content:none!important}
+.locations:before{
+  font-family:var(--title-font)!important;
+  font-weight:400!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  font-size:clamp(30px,3vw,44px)!important;
+  line-height:1!important;
+}
+.locations article .map-link{
+  white-space:nowrap;
+  font-size:12px;
+  letter-spacing:-.015em;
+}
+@media(max-width:760px){
+  .locations article .map-link{
+    white-space:normal;
+    font-size:13px;
+    letter-spacing:normal;
+  }
+}
