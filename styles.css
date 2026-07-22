@@ -291,3 +291,7 @@ main#inicio>.contact{order:-1}
 .contact h2{font:400 clamp(28px,3vw,44px)/1.08 'DM Sans',sans-serif;letter-spacing:.045em;text-transform:uppercase;white-space:nowrap;color:#111}
 
 .contact h2{font:400 clamp(28px,3vw,44px)/1.08 'Avenir Next','Avenir','Montserrat','DM Sans',sans-serif;letter-spacing:.035em;text-transform:uppercase;white-space:nowrap;color:#111}.contact h2 em{margin-left:.3em}
+
+/* Imagen un poco más baja y grande en escritorio. */
+.contact:before{left:8vw;top:18px;width:calc(50% - 9vw);height:580px}
+@media(max-width:760px){.contact:before{position:static;width:100%;height:300px;min-height:300px;margin-top:10px;background-size:cover}}
