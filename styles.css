@@ -365,3 +365,41 @@ main#inicio>.contact{order:-1}
     letter-spacing:normal;
   }
 }
+
+
+/* Ajuste final de títulos y direcciones. */
+:root{--title-font:'Josefin Sans',sans-serif}
+.contact h2,
+.contact h2 em{
+  font-family:var(--title-font)!important;
+  font-weight:500!important;
+}
+.contact h2 em:after{content:none!important}
+.contact .locations:before{
+  font-family:var(--title-font)!important;
+  font-weight:400!important;
+  letter-spacing:.08em!important;
+  text-transform:uppercase!important;
+  font-size:clamp(30px,3vw,44px)!important;
+  line-height:1!important;
+}
+.contact .locations{
+  grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr)!important;
+  column-gap:18px!important;
+}
+.locations article .map-link{
+  white-space:nowrap!important;
+  width:max-content;
+  max-width:none;
+  font-size:11px!important;
+  letter-spacing:-.02em!important;
+}
+@media(max-width:760px){
+  .contact .locations{grid-template-columns:1fr!important}
+  .locations article .map-link{
+    white-space:normal!important;
+    width:auto;
+    font-size:13px!important;
+    letter-spacing:normal;
+  }
+}
