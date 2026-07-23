@@ -444,3 +444,22 @@ main#inicio>.contact{order:-1}
 .services .section-heading h2{
   font-size:clamp(30px,4.3vw,60px)!important;
 }
+
+/* Imágenes reales de los servicios. */
+.category-card{
+  background-size:cover!important;
+  background-repeat:no-repeat!important;
+  background-color:#142746!important;
+}
+.category-hair{
+  background-image:linear-gradient(rgba(8,27,58,.14),rgba(4,20,48,.74)),url("assets/Fotos/fotos/peluqueria-herramientas.jpg")!important;
+  background-position:center 55%!important;
+}
+.category-beauty{
+  background-image:linear-gradient(rgba(8,27,58,.18),rgba(4,20,48,.72)),url("assets/Fotos/fotos/estetica-centro.jpg")!important;
+  background-position:center center!important;
+}
+.category-care{
+  background-image:linear-gradient(rgba(8,27,58,.16),rgba(4,20,48,.76)),url("assets/Fotos/fotos/pelucas-centro.jpg")!important;
+  background-position:center 48%!important;
+}
