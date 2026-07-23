@@ -1070,3 +1070,47 @@ main#inicio > .services {
     padding-top: 30px !important;
   }
 }
+
+
+/* Apartado de novias: bloque diferenciado dentro de peluquería. */
+.bridal-panel {
+  margin: 0 0 70px;
+  padding: 24px 0 8px;
+  background: #eef4fa;
+  border-top: 1px solid #dbe2eb;
+  border-bottom: 1px solid #dbe2eb;
+}
+.bridal-title {
+  margin-top: 74px !important;
+  color: #111 !important;
+}
+.bridal-grid {
+  background: transparent !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+}
+.bridal-grid article {
+  background: transparent !important;
+  padding: 28px 30px;
+}
+.bridal-grid small {
+  display: block;
+  margin-top: 14px;
+  color: #5f6873;
+  font-size: 13px;
+}
+@media (max-width: 760px) {
+  .bridal-panel {
+    margin-bottom: 48px;
+    padding: 18px 0 4px;
+  }
+  .bridal-title {
+    margin-top: 48px !important;
+  }
+  .bridal-grid {
+    grid-template-columns: 1fr;
+  }
+  .bridal-grid article {
+    padding: 24px 20px;
+  }
+}
