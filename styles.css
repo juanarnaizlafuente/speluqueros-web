@@ -1005,3 +1005,16 @@ body:has(.legal-page){min-height:100vh;display:flex;flex-direction:column}
     transform: scale(2.15) !important;
   }
 }
+
+
+/* Logotipo móvil: segundo ajuste de tamaño */
+@media (max-width: 760px) {
+  .site-header .brand-logo img {
+    transform: scale(2.8) !important;
+  }
+}
+@media (max-width: 360px) {
+  .site-header .brand-logo img {
+    transform: scale(2.55) !important;
+  }
+}
