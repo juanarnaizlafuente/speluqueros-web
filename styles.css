@@ -1061,3 +1061,12 @@ body:has(.legal-page){min-height:100vh;display:flex;flex-direction:column}
     letter-spacing: .06em !important;
   }
 }
+/* Ajuste final: acercar la sección de servicios al bloque de contacto. */
+main#inicio > .services {
+  padding-top: 36px !important;
+}
+@media (max-width: 760px) {
+  main#inicio > .services {
+    padding-top: 30px !important;
+  }
+}
