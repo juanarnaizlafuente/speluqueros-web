@@ -1165,3 +1165,50 @@ main#inicio > .services {
     border-top: 1px solid #dbe2eb;
   }
 }
+
+
+/* Galería editorial de novias: dos imágenes complementarias antes de las tarifas. */
+.bridal-gallery {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr);
+  gap: clamp(14px, 2.2vw, 30px);
+  align-items: end;
+  margin: 0 0 34px;
+}
+.bridal-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #e8edf3;
+}
+.bridal-gallery-feature {
+  aspect-ratio: 3 / 4;
+}
+.bridal-gallery-detail {
+  aspect-ratio: 1 / 1;
+  margin-bottom: clamp(16px, 4vw, 54px) !important;
+}
+.bridal-gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .45s ease;
+}
+.bridal-gallery figure:hover img {
+  transform: scale(1.025);
+}
+@media (max-width: 760px) {
+  .bridal-gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 0 24px;
+    align-items: stretch;
+  }
+  .bridal-gallery-feature,
+  .bridal-gallery-detail {
+    aspect-ratio: 4 / 5;
+    margin-bottom: 0 !important;
+    border-radius: 12px;
+  }
+}
