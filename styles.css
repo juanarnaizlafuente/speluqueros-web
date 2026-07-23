@@ -453,7 +453,7 @@ main#inicio>.contact{order:-1}
 }
 .category-hair{
   background-image:linear-gradient(rgba(8,27,58,.14),rgba(4,20,48,.74)),url("assets/Fotos/fotos/peluqueria-herramientas.jpg")!important;
-  background-position:center 55%!important;
+  background-position:center bottom!important;
 }
 .category-beauty{
   background-image:linear-gradient(rgba(8,27,58,.18),rgba(4,20,48,.72)),url("assets/Fotos/fotos/estetica-centro.jpg")!important;
