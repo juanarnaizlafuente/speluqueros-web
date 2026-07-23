@@ -403,3 +403,20 @@ main#inicio>.contact{order:-1}
     letter-spacing:normal;
   }
 }
+
+
+/* Ajuste de espaciado y densidad de la sección de contacto. */
+.contact h2,
+.contact h2 em{
+  font-weight:300!important;
+  letter-spacing:.06em!important;
+  word-spacing:-.06em!important;
+}
+.contact h2 em{margin-left:.08em!important}
+.locations article .map-link{
+  font-size:13px!important;
+  letter-spacing:-.01em!important;
+}
+@media(min-width:761px){
+  .contact{padding-bottom:34px!important}
+}
