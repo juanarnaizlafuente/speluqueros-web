@@ -482,3 +482,13 @@ main#inicio>.contact{order:-1}
     letter-spacing:.07em!important;
   }
 }
+
+/* Anclas de servicios: deja visible el título bajo la cabecera fija. */
+.price-section-title{
+  scroll-margin-top:110px;
+}
+@media(max-width:760px){
+  .price-section-title{
+    scroll-margin-top:88px;
+  }
+}
