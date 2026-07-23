@@ -508,3 +508,20 @@ body,
 .prices{
   background:#f5f6f8!important;
 }
+
+
+/* Páginas legales */
+body:has(.legal-page){min-height:100vh;display:flex;flex-direction:column}
+.legal-page{flex:1;width:min(1120px,calc(100% - 48px));margin:0 auto;padding:clamp(48px,7vw,96px) 0 96px}
+.legal-page h1{font-family:'Josefin Sans',sans-serif;font-weight:500;text-transform:uppercase;letter-spacing:.08em;font-size:clamp(32px,5vw,64px);margin:0 0 48px;color:#111}
+.legal-page h2{font-family:'Josefin Sans',sans-serif;font-weight:500;text-transform:uppercase;letter-spacing:.04em;font-size:clamp(20px,2.4vw,30px);margin:42px 0 16px;color:#111}
+.legal-page p,.legal-page li{font-size:16px;line-height:1.7;color:#333}
+.legal-page p{margin:0 0 18px}
+.legal-page ul{padding-left:24px;margin:0 0 20px}
+.legal-page a{color:#164f9e}
+.policy-table-wrap{overflow-x:auto;margin:24px 0 36px}
+.policy-table-wrap table{width:100%;border-collapse:collapse;background:rgba(255,255,255,.35);font-size:14px}
+.policy-table-wrap th,.policy-table-wrap td{border:1px solid rgba(17,17,17,.18);padding:12px;text-align:left;vertical-align:top}
+.policy-table-wrap th{font-family:'Josefin Sans',sans-serif;text-transform:uppercase;letter-spacing:.04em}
+@media(max-width:760px){.legal-page{width:min(100% - 32px,1120px);padding:36px 0 64px}.legal-page p,.legal-page li{font-size:15px;line-height:1.6}.policy-table-wrap table{min-width:760px}}
+
