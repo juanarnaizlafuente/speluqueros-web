@@ -1018,3 +1018,27 @@ body:has(.legal-page){min-height:100vh;display:flex;flex-direction:column}
     transform: scale(2.55) !important;
   }
 }
+
+
+/* Ajuste visual global: precios integrados en el fondo plateado */
+.price-grid {
+  background: transparent !important;
+  gap: 0 !important;
+}
+.price-grid article,
+.price-grid article:nth-child(n) {
+  background: transparent !important;
+}
+.price-grid article + article {
+  border-left: 1px solid transparent !important;
+}
+
+/* Categorías de servicios con la tipografía de títulos acordada */
+.category-card strong {
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-transform: uppercase !important;
+  letter-spacing: .08em !important;
+  line-height: 1.08 !important;
+}
